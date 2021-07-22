@@ -3,9 +3,9 @@ Recursos de curso de programación en linea de comandos de platzi
 
 ## Acciones más utilizadas
 
-- Seleccionar parámetros de programa
+- Capturar información del usuario
 ```bash
-$
+read -p "Ingresar una opción:" option
 ```
 
 - Variables de entorno
