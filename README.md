@@ -8,10 +8,16 @@ Recursos de curso de programación en linea de comandos de platzi
 read -p "Ingresar una opción:" option
 ```
 
-- Variables de entorno
+- Validar expresiones regulares
 
 ```bash
-$
+expresionRegular=^[a-z]$
+if [[ $variable =~ $expresionRegular ]]
+ echo "Valid regex"
+else
+ echo "Invalid regex"
+fi
+
 ```
 
 - 
