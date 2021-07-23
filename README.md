@@ -46,7 +46,16 @@ else
 fi
 ```
 
-- 
+- Sentencia Case or Switch
 ```bash
-$
+case $opcion in
+    "A") echo -e "\nOperación Guardar Arhivo";;
+    "B") echo "Operación Eliminar Archivo";;
+    [C-E]) echo "No esta implementada la operación";;
+    "*") "Opción Incorrecta"
+esac    
+```
+
+- Ciclo for
+```bash
 ```
