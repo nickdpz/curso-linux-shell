@@ -56,6 +56,12 @@ case $opcion in
 esac    
 ```
 
-- Ciclo for
+- Verificar si un archivo existe en la carpeta del script
 ```bash
+echo -e "\nExpresiones Condicionales con archivos"
+if [ -d $pathArchivo ]; then
+    echo "El directorio $pathArchivo existe"
+else 
+    echo "El directorio $pathArchivo no existe"
+fi    
 ```
