@@ -65,3 +65,14 @@ else
     echo "El directorio $pathArchivo no existe"
 fi    
 ```
+
+- Iterar todos lo archivos de ls
+
+```bash
+for fil in $(ls)
+do
+    echo "Nombre archivo:$fil"
+done
+```
+
+
