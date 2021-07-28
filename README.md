@@ -99,7 +99,7 @@ done
 - Escribir en un archivo sin necesidad de abrir editor
 
 ```bash
-cat <<EOM >>$1
+cat <<EOM >>$1 #Nombre de archivo
 $2
 EOM
 ```
