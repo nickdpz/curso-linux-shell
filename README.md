@@ -86,3 +86,21 @@ done
 ```
 
 
+- Iterar con while
+
+```bash
+while [ $numero -ne 10 ]
+do
+    echo "Imprimiendo $numero veces"
+    numero=$(( numero + 1 ))
+done
+```
+
+- Escribir en un archivo sin necesidad de abrir editor
+
+```bash
+cat <<EOM >>$1
+$2
+EOM
+```
+
