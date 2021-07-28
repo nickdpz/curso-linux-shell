@@ -66,12 +66,22 @@ else
 fi    
 ```
 
-- Iterar todos lo archivos de ls
+- Iterar todos lo archivos de ls con for
 
 ```bash
 for fil in $(ls)
 do
     echo "Nombre archivo:$fil"
+done
+```
+
+- Iterar con while
+
+```bash
+while [ $numero -ne 10 ]
+do
+    echo "Imprimiendo $numero veces"
+    numero=$(( numero + 1 ))
 done
 ```
 
