@@ -1,4 +1,4 @@
-# Course Programming With Shell ✅
+# Programming With Shell ✅
 Recursos de curso de programación en linea de comandos de platzi
 
 ## Acciones más utilizadas
